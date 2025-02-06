@@ -5,3 +5,8 @@ edition = "2021"
 repository = "https://github.com/duckinator/dist-build-setup-test"
 
 [dependencies]
+
+# The profile that 'dist' will build with
+[profile.dist]
+inherits = "release"
+lto = "thin"
