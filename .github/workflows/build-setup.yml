@@ -1,0 +1,2 @@
+- name: Say hi
+  run: echo "Hello, world!"
