@@ -2,5 +2,6 @@
 name = "dist-build-setup-test"
 version = "0.1.0"
 edition = "2021"
+repository = "https://github.com/duckinator/dist-build-setup-test"
 
 [dependencies]
